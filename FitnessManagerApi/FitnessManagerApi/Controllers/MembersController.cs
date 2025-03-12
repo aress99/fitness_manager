@@ -1,10 +1,12 @@
 ﻿using FitnessManagerApi.Data;
 using FitnessManagerApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FitnessManagerApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class MembersController : ControllerBase
@@ -17,12 +19,26 @@ namespace FitnessManagerApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Member>>> GetMembers()
+        public async Task<ActionResult<IEnumerable<Member>>> GetMembers([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
-            return await _context.Members.ToListAsync();
+            return await _context.Members
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
         }
 
-        [HttpGet("{fitnessNumber}")]
+        [HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<Member>>> SearchMembers([FromQuery] string fitnessNumber)
+        {
+            if (string.IsNullOrEmpty(fitnessNumber)) return BadRequest("FitnessNumber is required.");
+            return await _context.Members
+                .Where(m => m.FitnessNumber.Contains(fitnessNumber))
+                .ToListAsync();
+        }
+        
+
+
+                [HttpGet("{fitnessNumber}")]
         public async Task<ActionResult<Member>> GetMember(string fitnessNumber)
         {
             var member = await _context.Members.FirstOrDefaultAsync(m => m.FitnessNumber == fitnessNumber);

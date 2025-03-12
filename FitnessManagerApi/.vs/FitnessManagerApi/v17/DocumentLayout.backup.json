@@ -1,18 +1,51 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\project_new_fitness\\fitness_manager\\FitnessManagerApi\\",
+  "WorkspaceRootPath": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\project_new_fitness\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\controllers\\workoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\finalfitnessmanager\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\finalfitnessmanager\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\controllers\\workoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\controllers\\workoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\project_new_fitness\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\models\\workout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\finalfitnessmanager\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\finalfitnessmanager\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\models\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\models\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\finalfitnessmanager\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\finalfitnessmanager\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\models\\workout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\models\\workout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\project_new_fitness\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\finalfitnessmanager\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\finalfitnessmanager\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|d:\\finalfitnessmanager\\fitness_manager\\fitnessmanagerapi\\fitnessmanagerapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616547BC-1758-42D1-8A24-99C722C36A99}|FitnessManagerApi\\FitnessManagerApi.csproj|solutionrelative:fitnessmanagerapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GamerPC\\AppData\\Local\\Temp\\zg4wfm4p..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GamerPC\\AppData\\Local\\Temp\\zg4wfm4p..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GamerPC\\AppData\\Local\\Temp\\zg4wfm4p..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +55,133 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MembersController.cs",
+              "DocumentMoniker": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\MembersController.cs",
+              "RelativeDocumentMoniker": "FitnessManagerApi\\Controllers\\MembersController.cs",
+              "ToolTip": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\MembersController.cs",
+              "RelativeToolTip": "FitnessManagerApi\\Controllers\\MembersController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:50:57.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Program.cs",
+              "RelativeDocumentMoniker": "FitnessManagerApi\\Program.cs",
+              "ToolTip": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Program.cs",
+              "RelativeToolTip": "FitnessManagerApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:47:35.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\GamerPC\\AppData\\Local\\Temp\\zg4wfm4p..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-12T16:20:09.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\appsettings.json",
+              "RelativeDocumentMoniker": "FitnessManagerApi\\appsettings.json",
+              "ToolTip": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\appsettings.json",
+              "RelativeToolTip": "FitnessManagerApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T16:14:31.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WorkoutsController.cs",
-              "DocumentMoniker": "D:\\project_new_fitness\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\WorkoutsController.cs",
+              "DocumentMoniker": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\WorkoutsController.cs",
               "RelativeDocumentMoniker": "FitnessManagerApi\\Controllers\\WorkoutsController.cs",
-              "ToolTip": "D:\\project_new_fitness\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\WorkoutsController.cs",
+              "ToolTip": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\WorkoutsController.cs",
               "RelativeToolTip": "FitnessManagerApi\\Controllers\\WorkoutsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T04:01:30.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SubscriptionsController.cs",
+              "DocumentMoniker": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\SubscriptionsController.cs",
+              "RelativeDocumentMoniker": "FitnessManagerApi\\Controllers\\SubscriptionsController.cs",
+              "ToolTip": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\SubscriptionsController.cs",
+              "RelativeToolTip": "FitnessManagerApi\\Controllers\\SubscriptionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:51:32.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Workout.cs",
-              "DocumentMoniker": "D:\\project_new_fitness\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Workout.cs",
+              "DocumentMoniker": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Workout.cs",
               "RelativeDocumentMoniker": "FitnessManagerApi\\Models\\Workout.cs",
-              "ToolTip": "D:\\project_new_fitness\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Workout.cs",
+              "ToolTip": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Workout.cs",
               "RelativeToolTip": "FitnessManagerApi\\Models\\Workout.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T04:00:21.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Members.cs",
+              "DocumentMoniker": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Members.cs",
+              "RelativeDocumentMoniker": "FitnessManagerApi\\Models\\Members.cs",
+              "ToolTip": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Members.cs",
+              "RelativeToolTip": "FitnessManagerApi\\Models\\Members.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:57:12.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Subscription.cs",
-              "DocumentMoniker": "D:\\project_new_fitness\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Subscription.cs",
+              "DocumentMoniker": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Subscription.cs",
               "RelativeDocumentMoniker": "FitnessManagerApi\\Models\\Subscription.cs",
-              "ToolTip": "D:\\project_new_fitness\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Subscription.cs",
+              "ToolTip": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Models\\Subscription.cs",
               "RelativeToolTip": "FitnessManagerApi\\Models\\Subscription.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T03:57:16.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FitnessManagerApi\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\finalFitnessManager\\fitness_manager\\FitnessManagerApi\\FitnessManagerApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FitnessManagerApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAtwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:48:58.633Z",
               "EditorCaption": ""
             }
           ]

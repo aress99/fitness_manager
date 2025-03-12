@@ -1,10 +1,12 @@
 ﻿using FitnessManagerApi.Data;
 using FitnessManagerApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FitnessManagerApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class WorkoutsController : ControllerBase
@@ -17,10 +19,22 @@ namespace FitnessManagerApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Workout>>> GetWorkouts()
+        public async Task<ActionResult<IEnumerable<Workout>>> GetWorkouts([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
             return await _context.Workouts
-                .Include(w => w.Member) // Включва свързания Member
+                .Include(w => w.Member)
+                .OrderBy(w => w.MemberId)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+        }
+
+        [HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<Workout>>> SearchWorkouts([FromQuery] DateTime workoutDate)
+        {
+            return await _context.Workouts
+                .Include(w => w.Member)
+                .Where(w => w.WorkoutDate.Date == workoutDate.Date)
                 .ToListAsync();
         }
 
