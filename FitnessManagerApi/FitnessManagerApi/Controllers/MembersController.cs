@@ -33,6 +33,12 @@ namespace FitnessManagerApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Member>> PostMember(Member member)
         {
+            var existingMember = await _context.Members.FirstOrDefaultAsync(m => m.FitnessNumber == member.FitnessNumber);
+            if (existingMember != null)
+            {
+                return BadRequest("A member with this FitnessNumber already exists.");
+            }
+
             _context.Members.Add(member);
             await _context.SaveChangesAsync();
             return CreatedAtAction(nameof(GetMember), new { fitnessNumber = member.FitnessNumber }, member);
